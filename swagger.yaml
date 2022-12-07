@@ -104,12 +104,12 @@ paths:
       deprecated: false
       security:
       - bearer: []
-  /jobs/{id}:
+  /job/{id}:
     parameters:
       - in: path
         name: id
         schema:
-          type: string
+          type: integer
         required: true
         description: The user ID
     get:
