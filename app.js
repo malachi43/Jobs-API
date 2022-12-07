@@ -20,6 +20,10 @@ const connectDB = require('./db/connect')
 const authRoute = require('./routes/auth')
 const jobRoute = require('./routes/Jobs')
 
+//Swagger
+const swaggerUI = require('swagger-ui-express')
+const yaml = require('yamljs')
+const swaggerDocument = yaml.load('./swagger.yaml')
 
 //parse json data coming from post route in req.body
 app.use(rateLimiter({
@@ -32,6 +36,10 @@ app.use(cors())
 app.use(xss());
 
 
+app.get('/', (req,res)=>{
+    res.status(200).send(`<h1>JOBS API</h1><a href="/api/docs">Documentation</a>`)
+})
+app.use('/api/docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
 //routes
 app.use('/api/v1/jobs', authenticateUser, jobRoute)
 app.use('/api/v1/auth', authRoute)
