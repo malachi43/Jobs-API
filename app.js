@@ -25,11 +25,12 @@ const swaggerUI = require('swagger-ui-express')
 const yaml = require('yamljs')
 const swaggerDocument = yaml.load('./swagger.yaml')
 
-//parse json data coming from post route in req.body
+
 app.use(rateLimiter({
 	windowMs: 15 * 60 * 1000, 
 	max: 100, 
 }))
+//parse json data coming from post route in req.body 
 app.use(express.json())
 app.use(helmet())
 app.use(cors())
