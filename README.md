@@ -92,7 +92,7 @@ Update job specific to a registered user with details provide in the body using 
 ```bash
 Method: PATCH
 Type: RAW
-URL: http://localhost:3000/api/v1/api/v1/jobs/63b14a8ae8b73c11dca11046
+URL: http://localhost:3000/api/v1/jobs/63b14a8ae8b73c11dca11046
 ```
 
 
@@ -160,7 +160,7 @@ Return a single job specific to a registered user using an ID.
 ```bash
 Method: GET
 Type: RAW
-URL: http://localhost:3000/api/v1/api/v1/jobs/63b14acfe8b73c11dca1104b
+URL: http://localhost:3000/api/v1/jobs/63b14acfe8b73c11dca1104b
 ```
 
 
@@ -206,7 +206,7 @@ Returns all the jobs specific to a registered user.
 ```bash
 Method: GET
 Type: 
-URL: http://localhost:3000/api/v1/api/v1/jobs/
+URL: http://localhost:3000/api/v1/jobs/
 ```
 
 
@@ -299,7 +299,7 @@ Gives user access to the various API routes.
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:3000/api/v1/api/v1/auth/login
+URL: http://localhost:3000/api/v1/auth/login
 ```
 
 
@@ -361,7 +361,7 @@ This creates a job specific to a user in the database.
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:3000/api/v1/api/v1/jobs
+URL: http://localhost:3000/api/v1/jobs
 ```
 
 
