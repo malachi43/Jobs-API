@@ -10,7 +10,9 @@ const register = async (req,res)=>{
     const token = user.createJWT()
    
     res.status(StatusCodes.CREATED).json({ 
-        user: {name: user.name}, 
+        user: {
+            name: user.name, 
+            email: user.email}, 
         token 
     })
 
