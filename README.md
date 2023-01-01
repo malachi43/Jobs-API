@@ -41,7 +41,7 @@ Deletes job specific to a registered user using an ID.
 ```bash
 Method: DELETE
 Type: 
-URL: {{URL}}/jobs/63b14abce8b73c11dca11049
+URL: https://jobs-api-hr3f.onrender.com/jobs/63b14abce8b73c11dca11049
 ```
 
 
@@ -80,7 +80,7 @@ Update job specific to a registered user with details provide in the body using 
 ```bash
 Method: PATCH
 Type: RAW
-URL: {{URL}}/jobs/63b14a8ae8b73c11dca11046
+URL: https://jobs-api-hr3f.onrender.com/jobs/63b14a8ae8b73c11dca11046
 ```
 
 
@@ -148,7 +148,7 @@ Return a single job specific to a registered user using an ID.
 ```bash
 Method: GET
 Type: RAW
-URL: {{URL}}/jobs/63b14acfe8b73c11dca1104b
+URL: https://jobs-api-hr3f.onrender.com/jobs/63b14acfe8b73c11dca1104b
 ```
 
 
@@ -194,7 +194,7 @@ Returns all the jobs specific to a registered user.
 ```bash
 Method: GET
 Type: 
-URL: {{URL}}/jobs/
+URL: https://jobs-api-hr3f.onrender.com/jobs/
 ```
 
 
@@ -287,7 +287,7 @@ Gives user access to the various API routes.
 ```bash
 Method: POST
 Type: RAW
-URL: {{URL}}/auth/login
+URL: https://jobs-api-hr3f.onrender.com/auth/login
 ```
 
 
@@ -349,7 +349,7 @@ This creates a job specific to a user in the database.
 ```bash
 Method: POST
 Type: RAW
-URL: {{URL}}/jobs
+URL: https://jobs-api-hr3f.onrender.com/jobs
 ```
 
 
@@ -417,7 +417,7 @@ This adds a user to the database with the details provided in the body.
 ```bash
 Method: POST
 Type: RAW
-URL: {{URL}}/auth/register
+URL: https://jobs-api-hr3f.onrender.com/auth/register
 ```
 
 
