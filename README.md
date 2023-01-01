@@ -2,7 +2,7 @@
 # INSTALLING THE PROJECT
 1. Clone the repository to your local machine by running the command, `git clone https://github.com/malachi43/Jobs-API.git` in your CLI (terminal). For this command to work you must have git installed. To download click [here](https://git-scm.com/downloads).
 
-2. cd (change directoty) into JobsAPI directory.
+2. cd (change directory) into JobsAPI directory.
 
 3. run `npm install` in your terminal(command line) to install the required dependencies.
 
