@@ -486,4 +486,4 @@ URL: http://localhost:3000/api/v1/auth/register
 ---
 [Back to top](#jobs-api)
 
->Generated at 2023-01-01 10:37:03 by [Uko Chibuike Malachi](https://github.com/thedevsaddam/docgen)
+>Generated at 2023-01-01 10:37:03 by [docgen](https://github.com/thedevsaddam/docgen)
