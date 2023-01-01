@@ -1,7 +1,19 @@
 
-# JOBS-API
+# INSTALLING THE PROJECT
+1. Clone the repository to your local machine by running the command, `git clone https://github.com/malachi43/Jobs-API.git` in your CLI (terminal). For this command to work you must have git installed. To download click [here](https://git-scm.com/downloads).
 
-This API helps you keep track of jobs you applied for. The jobs applied for would have the following statuses( **interview**, **pending** or **declined** ). [SEE DOCUMENTATION HERE](https://jobs-api-hr3f.onrender.com).
+2. cd (change directoty) into JobsAPI directory.
+
+3. run `npm install` in your terminal(command line) to install the required dependencies.
+
+4. run `node app.js` to start the server on port 3000.
+
+
+#  USING THE API
+
+### JOBS-API
+
+This API helps you keep track of jobs you applied for. The jobs applied for would have the following statuses( **interview**, **pending** or **declined** ). [TEST API](https://jobs-api-hr3f.onrender.com).
 
 
 
@@ -41,7 +53,7 @@ Deletes job specific to a registered user using an ID.
 ```bash
 Method: DELETE
 Type: 
-URL: https://jobs-api-hr3f.onrender.com/api/v1/jobs/63b14abce8b73c11dca11049
+URL: http://localhost:3000/api/v1/jobs/63b14abce8b73c11dca11049
 ```
 
 
@@ -80,7 +92,7 @@ Update job specific to a registered user with details provide in the body using 
 ```bash
 Method: PATCH
 Type: RAW
-URL: https://jobs-api-hr3f.onrender.com/api/v1/api/v1/jobs/63b14a8ae8b73c11dca11046
+URL: http://localhost:3000/api/v1/api/v1/jobs/63b14a8ae8b73c11dca11046
 ```
 
 
@@ -148,7 +160,7 @@ Return a single job specific to a registered user using an ID.
 ```bash
 Method: GET
 Type: RAW
-URL: https://jobs-api-hr3f.onrender.com/api/v1/api/v1/jobs/63b14acfe8b73c11dca1104b
+URL: http://localhost:3000/api/v1/api/v1/jobs/63b14acfe8b73c11dca1104b
 ```
 
 
@@ -194,7 +206,7 @@ Returns all the jobs specific to a registered user.
 ```bash
 Method: GET
 Type: 
-URL: https://jobs-api-hr3f.onrender.com/api/v1/api/v1/jobs/
+URL: http://localhost:3000/api/v1/api/v1/jobs/
 ```
 
 
@@ -287,7 +299,7 @@ Gives user access to the various API routes.
 ```bash
 Method: POST
 Type: RAW
-URL: https://jobs-api-hr3f.onrender.com/api/v1/api/v1/auth/login
+URL: http://localhost:3000/api/v1/api/v1/auth/login
 ```
 
 
@@ -349,7 +361,7 @@ This creates a job specific to a user in the database.
 ```bash
 Method: POST
 Type: RAW
-URL: https://jobs-api-hr3f.onrender.com/api/v1/api/v1/jobs
+URL: http://localhost:3000/api/v1/api/v1/jobs
 ```
 
 
@@ -417,7 +429,7 @@ This adds a user to the database with the details provided in the body.
 ```bash
 Method: POST
 Type: RAW
-URL: https://jobs-api-hr3f.onrender.com/api/v1/auth/register
+URL: http://localhost:3000/api/v1/auth/register
 ```
 
 
@@ -474,4 +486,4 @@ URL: https://jobs-api-hr3f.onrender.com/api/v1/auth/register
 ---
 [Back to top](#jobs-api)
 
->Generated at 2023-01-01 10:37:03 by [docgen](https://github.com/thedevsaddam/docgen)
+>Generated at 2023-01-01 10:37:03 by [Uko Chibuike Malachi](https://github.com/thedevsaddam/docgen)
